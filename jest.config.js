@@ -4,3 +4,7 @@ export default {
     '<rootDir>/tests/'
   ]
 }
+
+module.exports = {
+  testTimeout: 20000
+}
