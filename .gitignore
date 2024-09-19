@@ -1,5 +1,4 @@
 .env
-.babelrc
 .nvmrc
 .curl.txt
 /node_modules

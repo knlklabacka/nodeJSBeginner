@@ -16,7 +16,7 @@ jobs:
       - name: Run tests
         run: npm test
         env:
-          MONGODB_URI: mongodb://192.168.1.55:27017/whispering-database
+          MONGODB_URI: mongodb+srv://knlklabacka:4V6GWC19dToLUs3N@malkocluster.zwi7e.mongodb.net/?retryWrites=true&w=majority&appName=MalkoCluster
           PORT: 4000
           SALT_ROUNDS: 10
           JWT_SECRET: ${{ steps.generate-secret.outputs.JWT_SECRET }}
