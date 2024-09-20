@@ -10,7 +10,7 @@ let firstUser
 let secondUser
 
 describe('Server', () => {
-  beforeAll(ensureDbConnection)
+  beforeAll(ensureDbConnection, 30000)
   beforeEach(async () => {
     await restoreDb()
     await populateDb(whispers)
